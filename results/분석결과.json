@@ -1,0 +1,30 @@
+{
+  "correlation_analysis": {
+    "old_building_ratio_vs_fire_rate": {
+      "pearson_r": 0.47119639467686736,
+      "p_value": 0.017426386561982154,
+      "significant": true
+    },
+    "avg_floors_vs_fire_rate": {
+      "pearson_r": -0.15286966220394113,
+      "p_value": 0.4656828784331045,
+      "significant": false
+    },
+    "avg_area_vs_fire_rate": {
+      "pearson_r": 0.30796604425085805,
+      "p_value": 0.13421836320610994,
+      "significant": false
+    }
+  },
+  "regression_model": {
+    "r2_score": 0.35025112291159355,
+    "rmse": 55.76093871576928,
+    "mae": 45.987960670132104,
+    "coefficients": {
+      "old_building_ratio": -6.317995910485208,
+      "avg_floors": 0.7077041240209823,
+      "avg_area": 0.00159330573064391,
+      "intercept": 205.1346528931153
+    }
+  }
+}
